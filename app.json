@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "쉐어플랜",
+    "slug": "SharePlan",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.4",
+    "notification": {
+      "icon": "./assets/notificationLogo.png"
+    },
+    "splash": {
+      "image": "./assets/shareplanSplash.png",
+      "backgroundColor": "#ffffff"
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#000",
+      "translucent": false
+    },
+    "orientation": "portrait",
+    "icon": "./assets/shareplanLogoApp.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "www.theshareplan.com",
+      "versionCode": 4,
+      "config": {
+        "googleSignIn": {
+          "apiKey": "AIzaSyCuf7YD4p0wS8aRXcKT79XC3wy3VGb1Nik",
+          "certificateHash": "F63F2E7F44CDED94BE3E5E44F7328E15360AC55A"
+        }
+      },
+      "permissions": ["CAMERA", "VIBRATE"]
+    }
+  }
+}
